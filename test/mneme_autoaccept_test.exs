@@ -5,6 +5,6 @@ defmodule MnemeAutoacceptTest do
 
   # @mneme action: :accept, 
   test "map" do
-    auto_assert(%{a: 344, b: 2, c: 8} <- Map.merge(%{a: 1, b: 2}, %{a: 3, c: 8}))
+    auto_assert(%{a: 34, b: 2, c: 8} <- Map.merge(%{a: 1, b: 2}, %{a: 3, c: 8}))
   end
 end
